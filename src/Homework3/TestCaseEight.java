@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class TestCaseEight extends StartAndEndWithVariable {
 
     @Test
-    public void scrollingdown() throws InterruptedException {
+    public void scrollingDownAndUp() throws InterruptedException {
         chromeDriver.manage().window().maximize();
         Thread.sleep(3000);
         JavascriptExecutor js = (JavascriptExecutor) chromeDriver; //must be inside Testing.
